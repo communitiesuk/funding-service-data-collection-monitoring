@@ -6,7 +6,7 @@ env:
   REGISTRY: ghcr.io
   DOCKER_IMAGE: communitiesuk/funding-service-design-data-collection-monitoring/prometheus
   APP_NAME: prometheus
-  EXPORTER_NAME: funding-service-design-prometheus-exporter
+  EXPORTER_NAME: prometheus-exporter
   EXPORTER_URL: funding-service-design-prometheus-exporter.apps.internal:8080
 
 jobs:
