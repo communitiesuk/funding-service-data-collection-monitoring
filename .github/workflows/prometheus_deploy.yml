@@ -5,9 +5,9 @@ on: workflow_dispatch
 env:
   REGISTRY: ghcr.io
   DOCKER_IMAGE: communitiesuk/funding-service-design-data-collection-monitoring/prometheus
-  APP_NAME: prometheus
-  EXPORTER_NAME: prometheus-exporter
-  EXPORTER_URL: prometheus-exporter-dluhc-core.apps.internal:8080
+  APP_NAME: funding-service-design-prometheus
+  EXPORTER_NAME: funding-service-design-prometheus-exporter
+  EXPORTER_URL: funding-service-design-prometheus-exporter.apps.internal:8080
 
 jobs:
   deploy:
