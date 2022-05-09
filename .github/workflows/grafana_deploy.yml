@@ -3,7 +3,7 @@ name: Grafana deployment on GOV.UK PaaS
 on: workflow_dispatch
 
 env:
-  APP_NAME: grafana
+  APP_NAME: funding-service-grafana
   PRIVATE_APP_NAME: prometheus
 
 jobs:
